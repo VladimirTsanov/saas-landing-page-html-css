@@ -1,0 +1,63 @@
+:root {
+--font-family: 'Poppins', sans-serif;
+}
+
+[data-theme="light"] {
+    
+    /* Primary */
+    --clr-primary: #4F46E5;
+    --clr-primary-hover: #4338CA;
+    --clr-accent: #06B6D4;
+
+    /* Backgrounds */
+    --clr-bg: #F8FAFC;
+    --clr-surface: #FFFFFF;
+    --clr-surface-secondary: #F1F5F9;
+
+    /* Text */
+    --clr-text: #0F172A;
+    --clr-text-secondary: #475569;
+    --clr-text-muted: #94A3B8;
+
+    /* Borders */
+    --clr-border: #E2E8F0;
+
+    /* States */
+    --clr-success: #22C55E;
+    --clr-warning: #F59E08;
+    --clr-danger: #EF4444;
+
+    /* Effects */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, .08);
+    --shadow-md: 0 10px 25px rgba(0, 0, 0, .10);
+}
+
+[data-theme="dark"] {
+    
+    /* Primary */
+    --clr-primary: #6366F1;
+    --clr-primary-hover: #818CF8;
+    --clr-accent: #22D3EE;
+
+    /* Backgrounds */
+    --clr-bg: #0F172A;
+    --clr-surface: #1E293B;
+    --clr-surface-secondary: #334155;
+
+    /* Text */
+    --clr-text: #F8FAFC;
+    --clr-text-secondary: #CBD5E1;
+    --clr-text-muted: #94A3B8;
+
+    /* Borders */
+    --clr-border: #334155;
+
+    /* States */
+    --clr-success: #4ADE80;
+    --clr-warning: #FBBF24;
+    --clr-danger: #F87171;
+
+    /* Effects */
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, .35);
+    --shadow-md: 0 12px 30px rgba(0, 0, 0, .45);
+}
